@@ -14,3 +14,8 @@ sudo xfs_growfs /
 
 # Grow the XFS filesystem for /var
 sudo xfs_growfs /var
+
+
+# Check the block device information
+echo "Displaying updated block device information..."
+lsblk
